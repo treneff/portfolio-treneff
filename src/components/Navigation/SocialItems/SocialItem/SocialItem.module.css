@@ -1,0 +1,44 @@
+.SocialItem {
+  margin: 0;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.SocialItem a {
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  padding: 15px 15px;
+}
+
+.SocialItem a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media (min-width: 500px) {
+  .SocialItem {
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+
+  .SocialItem a {
+    height: 100%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .SocialItem {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 3000px) {
+  .SocialItem {
+    font-size: 5rem;
+  }
+}

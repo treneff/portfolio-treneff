@@ -1,0 +1,18 @@
+.HomepageIntro {
+  color: white;
+  font-size: 1.7rem;
+  padding-bottom: 10%;
+}
+
+@media (min-width: 2000px) {
+  .HomepageIntro {
+    font-size: 2.7rem;
+    padding-bottom: 7%;
+  }
+}
+@media (min-width: 3200px) {
+  .HomepageIntro {
+    font-size: 4rem;
+    padding-bottom: 15%;
+  }
+}

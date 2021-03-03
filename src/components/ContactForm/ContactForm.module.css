@@ -1,0 +1,33 @@
+.ContactForm {
+  color: white;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  min-width: 350px;
+}
+
+.ButtonContact {
+  background-color: transparent;
+  position: relative;
+  border: 4px solid white;
+  border-radius: 10px;
+  color: white;
+  font: inherit;
+  padding: 8px 55px;
+  text-decoration: none;
+}
+
+@media (min-width: 2000px) {
+  .ContactForm {
+    font-size: 2.7rem;
+    padding-bottom: 7%;
+  }
+}
+@media (min-width: 3200px) {
+  .ContactForm {
+    font-size: 4rem;
+    padding-bottom: 15%;
+  }
+}

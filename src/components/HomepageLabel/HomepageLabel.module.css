@@ -1,0 +1,33 @@
+.HomepageLabel {
+  font-size: 4.2rem;
+  padding-bottom: 10%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.TopLabel {
+  display: inline-flex;
+  flex-direction: row;
+}
+.BotLabel {
+  display: inline-flex;
+  flex-direction: row;
+}
+@media (min-width: 1000px) {
+  .HomepageLabel {
+    font-size: 5.4rem;
+  }
+}
+@media (min-width: 2000px) {
+  .HomepageLabel {
+    font-size: 8rem;
+    padding-top: 2%;
+  }
+}
+@media (min-width: 3200px) {
+  .HomepageLabel {
+    font-size: 14rem;
+    padding-top: 3%;
+  }
+}

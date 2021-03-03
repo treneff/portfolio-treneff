@@ -1,0 +1,78 @@
+.NavigationItem {
+  margin: 20px 0;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+}
+
+.NavigationItem p {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.NavigationItem p:focus {
+  border: dotted 2px white;
+}
+
+@media (min-width: 590px) {
+  .NavigationItem {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+
+  .NavigationItem p {
+    height: 100%;
+    padding: 16px 10px;
+    border-bottom: 4px solid transparent;
+  }
+
+  .NavigationItem p:hover,
+  .NavigationItem p:active,
+  .NavigationItem p.active {
+    border-bottom: 4px solid white;
+    color: white;
+  }
+}
+
+@media (min-width: 2000px) {
+  .NavigationItem {
+    font-size: 2rem;
+  }
+
+  .NavigationItem p {
+    height: 110%;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 7px solid transparent;
+  }
+
+  .NavigationItem p:hover,
+  .NavigationItem p:active,
+  .NavigationItem a.active {
+    border-bottom: 7px solid white;
+  }
+}
+@media (min-width: 3000px) {
+  .NavigationItem {
+    font-size: 3.4rem;
+  }
+
+  .NavigationItem a {
+    height: 100%;
+    padding: 50px 30px;
+    border-bottom: 10px solid transparent;
+  }
+
+  .NavigationItem a:hover,
+  .NavigationItem a:active,
+  .NavigationItem a.active {
+    border-bottom: 10px solid white;
+  }
+}

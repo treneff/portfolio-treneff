@@ -1,0 +1,32 @@
+.Contact {
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 50vw;
+  min-width: 340px;
+  height: auto;
+  margin: auto;
+}
+@media (max-width: 590px) {
+  .Contact {
+    font-size: 0.6rem;
+    padding-top: 5%;
+    padding-bottom: 11%;
+  }
+}
+@media (min-width: 1500px) {
+  .Contact {
+    padding-top: 2vh;
+  }
+}
+@media (min-width: 2000px) {
+  .Contact {
+    font-size: 1.7rem;
+    padding-top: 0.05%;
+  }
+}
+@media (min-width: 3200px) {
+  .Contact {
+    font-size: 2.7rem;
+  }
+}

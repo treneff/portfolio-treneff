@@ -1,0 +1,9 @@
+.HomepageLetter {
+  margin-right: 15px;
+}
+
+@media (max-width: 450) {
+  .HomepageLetter {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,14 @@
+.Layout {
+  height: 100vh;
+}
+
+@media (max-width: 590px) {
+  .HideMobile {
+    display: none;
+  }
+}
+@media (min-width: 590px) {
+  .HideMonitor {
+    display: none;
+  }
+}

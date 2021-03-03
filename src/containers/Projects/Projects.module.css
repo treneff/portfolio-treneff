@@ -1,0 +1,56 @@
+.Projects {
+  text-align: center;
+  position: relative;
+  color: white;
+  width: 100vw;
+  min-width: 340px;
+  padding-top: 1vh;
+}
+
+.Project {
+  display: inline-block;
+  text-align: center;
+  padding: 2% 5%;
+}
+.Project img {
+  width: 21vw;
+  min-width: 320px;
+  height: 29vh;
+  border: 1px solid white;
+}
+.Buttons {
+  display: flex;
+  justify-content: space-around;
+}
+/* containers prepared for more projects will require top margin to be removed from main container
+.ContainerTop {
+  text-align: center;
+}
+.ContainerBottom {
+  text-align: center;
+  margin-top: 3%;
+}
+*/
+
+@media (max-width: 500px) {
+  .Project {
+    padding: 60px 0;
+    font-size: 1.2rem;
+  }
+  .Projects {
+    padding-top: 5%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .Projects {
+    font-size: 1.8rem;
+    padding-bottom: 4%;
+    padding-top: 1%;
+  }
+}
+@media (min-width: 3000px) {
+  .Projects {
+    font-size: 2.4rem;
+  }
+}

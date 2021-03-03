@@ -1,0 +1,26 @@
+.ButtonFunction {
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 10px;
+  color: white;
+  font: inherit;
+  padding: 8px 40px;
+  text-decoration: none;
+}
+.Container {
+  width: 100%;
+}
+
+@media (min-width: 2000px) {
+  .ButtonFunction {
+    font-size: 2rem;
+    border: 8px solid white;
+  }
+}
+
+@media (min-width: 3200px) {
+  .ButtonFunction {
+    font-size: 3.4rem;
+    border: 10px solid white;
+  }
+}
